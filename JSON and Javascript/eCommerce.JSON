@@ -1,0 +1,112 @@
+{
+	"userInfo": [
+		{
+			"uId": 83583758,
+			"uName": "Anurag",
+			"uPassword": "12345",
+			"uEmail": "manruag02@gmail.com",
+			"uPhone": 9022435785,
+			"uAddresses": [
+				{
+					"addressline1": "Hill View society",
+					"addressline2": "Parsi street ",
+					"City": "Mumbai",
+					"State": "MH",
+					"Pin code ": 45545585,
+					"Country": "India"
+				}
+			],
+			"uCurrency": "INR"
+		},
+		{
+			"uId": 83583758233,
+			"uName": "Parag",
+			"uPassword": "1456as45",
+			"uEmail": "mparag02@gmail.com",
+			"uPhone": 9356243578,
+			"uAddresses": [
+				{
+					"addressline1": "Kohinoor society",
+					"addressline2": "Gandhi street ",
+					"City": "Mumbai",
+					"State": "MH",
+					"Pin code ": 455455,
+					"Country": "India"
+				}
+			],
+			"uCurrency": "INR"
+		}
+	],
+	"productsInfo": [
+		{
+			"pId": 2456454545,
+			"pType": "Sports",
+			"pSubType": "Indoor",
+			"pName": "Yonex Table Tennis kit",
+			"pSpecs": "Yonex table tennis kit with smooth finishing and power grip handle for better shots",
+			"pPrice": 450,
+			"pStockInd": "In Stock",
+			"pSId": 545454
+		},
+		{
+			"pId": 345645454,
+			"pType": "Sports",
+			"pSubType": "Outdoor",
+			"pName": "GM Cricket bat",
+			"pSpecs": "GM bat with smooth finishing and power grip handle for better shots",
+			"pPrice": 1450,
+			"pStockInd": "In Stock",
+			"pSId": 54545455
+		}
+	],
+	"sellerInfo": [
+		{
+			"sId": 545454,
+			"sName": "AMS",
+			"sPassword": "12345",
+			"sEmail": "ams02@gmail.com",
+			"sPhone": 9054435785,
+			"sAddress": [
+				{
+					"addressline1": "xyZ society",
+					"addressline2": "pqrs street ",
+					"City": "Mumbai",
+					"State": "MH",
+					"Pin code ": 45545585,
+					"Country": "India"
+				}
+			],
+			"sCurrency": "INR"
+		}
+	],
+	"orderInfo": [
+		{
+			"orderId": 123456,
+			"orderCustomerId": "83583758",
+			"orderItemDetails": [
+				{
+					"orderProductId": 2456454545,
+					"orderProductPrice": 450
+				}
+			],
+			"orderTotal": 450,
+			"orderPayment":"Done",
+			"orderDeliveryDate": "12/04/2018",
+			"orderStatus": "Inprogress"
+		},
+		{
+			"orderId": 551256,
+			"orderCustomerId": 83583758233,
+			"orderItemDetails": [
+				{
+					"orderProductId": 2456454545,
+					"orderProductPrice": 450
+				}
+			],
+			"orderTotal": 450,
+			"orderPayment":"Done",
+			"orderDeliveryDate": "1/04/2018",
+			"orderStatus": "completed"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+Logic for Json Ecommerce Platform
+
+1. I have considered four main object arrays viz. User, Product, Seller and Order.
+2. New elements can be added in respective arrays but in Order array we will feed info from user(userId as customer id) ,
+   Product (productId as orderProductId).
+3. Orders array has payment as well as order status fields to confirm order status and payment.
+4. Users and Sellers can have mulitple addresses and hence I have the currency code for both user and seller.
+5. Similarly Product array has In stock field for their availability and Type, Sub-type for categorization and hence easier fetching.
+6. Product array also has supplier id field to identify which supplier has provided that product.

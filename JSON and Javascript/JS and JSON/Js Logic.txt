@@ -1,0 +1,18 @@
+Logic for Functional Programming
+
+1. First function :- Write a function to take pokemon’s name as argument and display the
+information of that pokemon
+Logic :I have fetch all info from respective object as well object array fields, I have used FOR IN loop to fetch 
+data from object arrays. If loop is used to check the condition and then FOR IN to fetch. I have used alert to 
+display info. I have also validated input against spaces,null and undefined.
+
+2. Second Function :- Write a function that takes pokemon’s name as an argument and find out
+which all pokemon have that name in their “next_evolution” field.
+Logic :- I have used nested for loop for fetching info from next_evolution field and If loop for validation.
+I have also validated and formatted the code.
+
+3.Third Function:- Write a function that take a “Weakness” as an input and gives the names
+of all pokemon who have that Weakness. (check the weakness array in
+the dataset
+Logic :- I have used nested for loop for fetching info from Weakness array and If loop is used for validation.
+I have also formatted and validated the input code.
